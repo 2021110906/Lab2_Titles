@@ -1,0 +1,2 @@
+在判断 nums[second] + nums[third] == target 时，使用 !nums[second] + nums[third] < target，可以确保 second < third 时，nums[second] + nums[third] 也满足条件。
+在添加三元组到答案列表时，使用 ans.contains(list) 方法来判断该三元组是否已经存在，如果存在则跳过。这样可以避免重复添加三元组。
